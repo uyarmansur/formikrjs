@@ -9,7 +9,7 @@ form {
   width: 500px;
 }
 
-form .inputDiv {
+.inputDiv {
   margin-bottom: 10px;
 }
 
@@ -18,7 +18,8 @@ form label {
   font-weight: bold;
 }
 
-form input {
+input,
+select {
   width: 100%;
   padding: 8px 7px;
   font-size: 1rem;
@@ -54,4 +55,15 @@ form button {
   cursor: pointer;
   border-radius: 20px;
   border: none;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.checkbox input {
+  width: auto;
+  margin-right: 5px;
 }
