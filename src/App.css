@@ -36,6 +36,10 @@ input:focus {
   border-color: lightblue;
 }
 
+form .inputError {
+  border-color: red;
+}
+
 form button {
   width: 100%;
   padding: 8px;
