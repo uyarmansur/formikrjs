@@ -9,12 +9,12 @@ form {
   width: 500px;
 }
 
-form .inputDiv{
+form .inputDiv {
   margin-bottom: 10px;
 }
 
 form label {
-  font-size:16px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -38,6 +38,9 @@ input:focus {
 
 form .inputError {
   border-color: red;
+}
+.error {
+  color: red;
 }
 
 form button {

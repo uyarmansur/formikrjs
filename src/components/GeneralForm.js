@@ -35,7 +35,7 @@ function GeneralForm() {
           id="email"
           placeholder="Mail adresinizi giriniz..."
         />
-        {errors.email && <p>{errors.email}</p>}
+        {errors.email && <p className="error">{errors.email}</p>}
       </div>
       <div className="inputDiv">
         <label>Yaş</label>
@@ -47,7 +47,7 @@ function GeneralForm() {
           id="age"
           placeholder="Yaşınızı giriniz..."
         />
-        {errors.age && <p>{errors.age}</p>}
+        {errors.age && <p className="error">{errors.age}</p>}
       </div>
       <div className="inputDiv">
         <label>Şifre</label>
@@ -59,7 +59,7 @@ function GeneralForm() {
           id="password"
           placeholder="Şifrenizi giriniz..."
         />
-        {errors.password && <p>{errors.password}</p>}
+        {errors.password && <p className="error">{errors.password}</p>}
       </div>
       <div className="inputDiv">
         <label>Şifre Tekrar</label>
@@ -71,7 +71,7 @@ function GeneralForm() {
           id="confirmPassword"
           placeholder="Şifrenizi tekrar giriniz..."
         />
-        {errors.confirmPassword && <p>{errors.confirmPassword}</p>}
+        {errors.confirmPassword && <p className="error">{errors.confirmPassword}</p>}
       </div>
       <button disabled={isSubmitting} type="submit">
         {isSubmitting ? "loading.." : "Kaydet"}
